@@ -1,0 +1,25 @@
+
+.row {
+    flex-wrap: wrap;
+}
+.row article {
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.row article .contenue {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.row article .contenue h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.row article .contenue p {
+    font-size: 14px;
+}
