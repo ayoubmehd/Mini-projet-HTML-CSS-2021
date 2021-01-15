@@ -1,3 +1,4 @@
+
 .row article {
     width: 100%;
 }
@@ -25,5 +26,19 @@ tr td:last-child {
     border-right: 1px solid;
 }
 h2 {
+    margin-top: 30px;
     margin-bottom: 12px;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.body p,
+.body h2 {
+    width: 100%;
+}
+.body img {
+    margin: 10px 0;
+    max-width: 100%;
 }
